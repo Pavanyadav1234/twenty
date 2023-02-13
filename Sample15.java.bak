@@ -1,0 +1,17 @@
+class Sample15
+{
+	public static void main(String[] args) 
+	{
+		char ch1='a';
+		int i1=8;
+		for (int i=10;i>=3;i--,i1--)
+		{
+			if(i%2==1)
+				if(i1%2==1)
+			{
+		     System.out.print(i+""+ch1+""+i1+" ");
+			 ch1++;
+			}
+		}
+	}
+}

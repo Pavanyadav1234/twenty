@@ -1,0 +1,14 @@
+class Sample18
+{
+ public static void main(String[] args)
+ {
+  char ch='a';
+  char ch1='b';
+  for (int i=1;i<=5;i++ )
+   {
+	  System.out.print(i+""+ch+""+ch1+"+(i+1)+" ");
+	  ch+=2;
+	  ch1+=2;
+   }
+ }
+}
